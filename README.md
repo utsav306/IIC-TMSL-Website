@@ -19,7 +19,7 @@ This repository contains the config files for the website of IIC TMSL made for "
 ##
 ## Credits
 This project would not have been possible without the efforts of the following people:
-- Atul Singh Chauhan &nbsp;[(@rudeCoder001)](https://github.com/rudecoder001)
+- Atul Kumar Singh &nbsp;[(@rudeCoder001)](https://github.com/rudecoder001)
 - Purbasha Kolley &nbsp;[(@Purbashakolley)](https://github.com/Purbashakolley)
 - Rishav Gupta &nbsp;[(@rishav7781)](https://github.com/rishav7781)
 - Satyaki Dey &nbsp;[(@SatyakiDey75)](https://github.com/SatyakiDey75)
