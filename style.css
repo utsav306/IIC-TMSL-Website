@@ -9,7 +9,7 @@ body {
   
     margin: 0;
     padding: 0;
- background:url("pic/back.jpg");
+ 
 	background-repeat: no-repeat;
   background-size: cover;
   color:black;
@@ -17,7 +17,7 @@ body {
 height: 100%;
   max-width: 100%;
   overflow-x: hidden;
- 
+  background: linear-gradient(89.9deg, rgb(208, 246, 255) 0.1%, rgb(255, 237, 237) 47.9%, rgb(255, 255, 231) 100.2%);
  
  
   }
@@ -37,8 +37,8 @@ height: 100%;
    
 }
   p{
-    font-size: 1.5rem;
-    font-family: 'Dancing Script', cursive;
+    font-size: 1rem;
+    font-family: sans-serif
   }
   h1{
     font-family: 'Roboto', sans-serif;
@@ -261,6 +261,7 @@ nav ul li a:hover:after {
 
 .home .front p{
   font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
 }
 
 /*front section end*/
@@ -271,6 +272,7 @@ nav ul li a:hover:after {
 
 
 /*About section starts */ 
+
 
 
 .hero
@@ -899,4 +901,69 @@ span {
 
 
 
+
+
+
+
+@media screen and (max-device-width: 480px)
+{
+  html{
+    overflow-x: hidden;
+  }
+  
+  header{
+   width: 100%;
+  }
+  .navbar{
+   width: 100%;
+  }
+
+  .home{
+    width: 100%;
+    margin-right: 50rem;
+    margin-left: 0.5rem;
+  }
+  .hero{
+   
+    height: 130rem;
+    width: 100%;
+  }
+  .events {
+    width: 100%;
+    
+    
+  }
+  .alumuni{
+    width: 100%;
+    height: 100rem;
+  }
+  
+ .carousel{
+  width: 20%;
+  height: 20%;
+
+  }
+
+  .carousel__face {
+    position: absolute;
+    width: 18rem;
+    height: 12rem;
+    top: ;
+    left: 10px;
+    right: 10px;
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(0,0,0,0.5);
+    display: flex;
+    margin-right: 1rem;
+  }
+
+
+
+  .end{
+    width: 100%;
+  }
+  footer{
+    width: 100%;
+  }
+}
 
